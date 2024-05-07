@@ -1,0 +1,34 @@
+@import "./assets/sass/variables.scss";
+
+*{
+    margin: $margin1;
+    padding: $padding1;
+}
+
+html, body{
+    font-size: $fontsize18;
+}
+
+.app{
+    min-height: $vh100;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .contenedor_principal{
+        min-height: $minheightApp;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        h1{
+            max-width: $max-widthApp;
+            font-size: $fontsize25;
+            font-family: Lato, sans-serif;
+            font-weight: $fontweightApp;
+            line-height: $lineheightApp;
+            margin: $margin2;
+        }
+    }
+}
