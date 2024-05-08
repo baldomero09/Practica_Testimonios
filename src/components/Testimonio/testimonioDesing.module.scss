@@ -1,0 +1,38 @@
+@import "../../assets/sass/variables.scss";
+
+.contenedor_main{
+    width: $sizetypeall9+$sizetypeall10+$sizetypeall6+$sizetypeall3;
+    height: $sizetypeall8+$sizetypeall6+$sizetypeall3;
+    margin: $sizetypeall2 $sizetypeall2 $sizetypeall6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $background-colorApp;
+    box-shadow: $margin1 $sizetypeall0 $sizetypeall2+$sizetypeall0 $sizetypeall $color1;
+    border-radius: $sizetypeall2;
+    .imagen_testimonio{
+        height: $percentage;
+        width: auto;
+        border-radius: $sizetypeall2;
+    }
+    .contenedor_texto{
+        text-align: center;
+        padding: $sizetypeall5;
+        font-family: lato, sans-serif;
+        font-weight: $fontweight;
+        line-height: $sizemedium1;
+        color: black;
+        .nombre{
+            font-size: $sizemedium;
+        }
+        .cargo{
+            font-size: $sizemedium;
+            margin-top: $sizetypeall2+$sizetypeall1;
+            padding-bottom: $sizetypeall4;
+        }
+        .testimonio{
+            font-size: $sizelittle;
+            text-align: justify;
+        }
+    }
+}
